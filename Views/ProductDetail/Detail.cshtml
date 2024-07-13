@@ -1,0 +1,23 @@
+@model ClothesStore.Models.Product
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model?.ProductImage" class="img-fluid" alt="@Model?.Name" />  <!-- Kiểm tra và sử dụng an toàn thuộc tính ProductImage và Name -->
+        </div>
+        <div class="col-md-6">
+            <h1>@Model?.Name</h1>  <!-- Kiểm tra và sử dụng an toàn thuộc tính Name -->
+            <p>@Model?.Description</p>  <!-- Kiểm tra và sử dụng an toàn thuộc tính Description -->
+            <p><strong>Category:</strong> @Model?.CategoryName</p>  <!-- Kiểm tra và sử dụng an toàn thuộc tính Category -->
+            <p><strong>Price:</strong> @Model?.Price.ToString("c")</p>  <!-- Kiểm tra và sử dụng an toàn thuộc tính Price -->
+
+            @* Lưu ý thay code này vào <form> để chuyển hướng *@
+            @* asp-page="/Cart"*@
+            <form id="@Model?.ProductID" asp-page="/Cart" method="post"> 
+                <input type="hidden" asp-for="ProductID"/> 
+                <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" /> 
+                <button type="submit" class="btn btn-outline-danger"> Thêm vào giỏ hàng </button>         
+            </form>
+        </div>
+    </div>
+</div>

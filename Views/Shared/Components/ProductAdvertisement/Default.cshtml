@@ -1,0 +1,22 @@
+@model ClothesStore.Models.Product
+
+@if (Model != null)
+{
+    <div class="container">
+        <div class="row">
+            <div class = "col-8">
+                <h3>@Model.Name</h3>
+                <p>@Model.Description</p>
+                <p>Price: @Model.Price</p>
+                <a class="btn btn-primary text-decoration-none" href="@Url.Action("Detail", "ProductDetail", new { productId = @Model.ProductID })">Xem thêm</a>
+            </div>
+            <div class = "col-4">
+                <img src="@Model.ProductImage" class="card-img-top" alt="@Model.Name" />
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p>Product not found</p>
+}

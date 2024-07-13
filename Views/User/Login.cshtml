@@ -1,0 +1,15 @@
+@model ClothesStore.Models.LoginViewModel
+
+
+<form asp-action="Login" method="post">
+    <div class="mb-3">
+        <label for="UserName" class="form-label">Email</label>
+        <input type="email" class="form-control" id="UserName" name="UserName" required>
+    </div>
+    <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" name="Password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <a href="@Url.Action("Register", "User")" class="btn btn-secondary">Register</a>
+</form>

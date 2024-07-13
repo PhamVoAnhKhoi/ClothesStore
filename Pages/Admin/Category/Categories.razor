@@ -1,0 +1,63 @@
+@page "/admin/categories"
+@using ClothesStore.Models
+@inject ICategoryRepository CategoryRepository
+@inherits OwningComponentBase<ICategoryRepository>
+
+<h1>Categories</h1>
+
+<table class="table table-sm table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Name</th>
+            <td />
+        </tr>
+    </thead>
+    <tbody> 
+        @if (CategoryData?.Count() > 0)
+        { 
+            @foreach (Category cate in CategoryData)
+            {
+                <tr>
+                    <td>@cate.CategoryID</td>
+                    <td style="width: 8%">
+                        <img style="width: 50%"  src="@cate.CategoryImage"/>
+                    </td>
+                    <td>@cate.CategoryName</td>
+                    <td>
+                        <NavLink class="btn btn-info btn-sm" href="@GetDetailsUrl(cate.CategoryID ?? 0)"> Details </NavLink>
+                        <NavLink class="btn btn-warning btn-sm" href="@GetEditUrl(cate.CategoryID ?? 0)"> Edit </NavLink>
+                        <button class="btn btn-danger btn-sm" @onclick="@(e => DeleteCategory(cate))"> Delete </button>
+                    </td>
+                </tr>
+            }          
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No Products</td>
+            </tr>
+        } </tbody>
+</table>
+<NavLink class="btn btn-primary" href="/admin/categories/create">Create</NavLink>
+
+@code {
+    public ICategoryRepository Repository => Service; 
+    public IEnumerable<Category> CategoryData { get; set; } = Enumerable.Empty<Category>(); 
+    protected async override Task OnInitializedAsync() 
+    { 
+        await UpdateData(); 
+    }
+    public async Task UpdateData()
+    { 
+        CategoryData = await Repository.Categories.ToListAsync(); 
+    }
+    public async Task DeleteCategory(Category cate) 
+    { 
+        Repository.DeleteCategory(cate); 
+        await UpdateData(); 
+    }
+    public string GetDetailsUrl(long id) => $"/admin/categories/details/{id}"; 
+    public string GetEditUrl(long id) => $"/admin/categories/edit/{id}";
+}
