@@ -1,36 +1,28 @@
-@* @model IEnumerable<ClothesStore.Models.Product>
-
-<div class="container">
-    <div class="row">
-        @foreach (var product in Model)
-        {
-           <div class="col-md-2">
-                <a class="text-decoration-none" href="@Url.Action("Detail", "ProductDetail", new { productId = product.ProductID })">
-                    <div class="card mb-4 shadow-sm text-dark">
-                        <img src="@product.ProductImage" class="card-img-top" alt="@product.Name" />
-                        <div class="card-body">
-                            <strong class="card-title">@product.Name</strong>
-                            <div class="d-flex justify-content-between align-items-center">
-                                 <small class="text-muted">@product.Price.ToString("c")</small> 
-                            </div>
-                        </div>
-                    </div>   
-                </a>
-            </div>
-        }
-    </div>
-</div> *@
-
 @model ProductsListViewModel
+
+<style>
+    .fixed-height-card {
+        height: 100%; /* Đảm bảo thẻ card chiếm toàn bộ chiều cao của cột */
+    }
+    .fixed-height-body {
+        height: 100px; /* Chiều cao cố định cho thẻ card-body */
+        overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+    }
+    .fixed-height-img {
+        height: 150px; /* Chiều cao cố định cho hình ảnh */
+        object-fit: cover; /* Đảm bảo hình ảnh được cắt để vừa với thẻ img */
+    }
+</style>
+
 <div class="container">
     <div class="row">
         @foreach (var product in Model?.Products ?? Enumerable.Empty<Product>())
         {
            <div class="col-md-2">
                 <a class="text-decoration-none" href="@Url.Action("Detail", "ProductDetail", new { productId = product.ProductID })">
-                    <div class="card mb-4 shadow-sm text-dark">
-                        <img src="@product.ProductImage" class="card-img-top" alt="@product.Name" />
-                        <div class="card-body">
+                    <div class="card mb-4 shadow-sm text-dark fixed-height-card">
+                        <img src="@product.ProductImage" class="card-img-top fixed-height-img" alt="@product.Name" />
+                        <div class="card-body fixed-height-body">
                             <strong class="card-title">@product.Name</strong>
                             <div class="d-flex justify-content-between align-items-center">
                                  <small class="text-muted">@product.Price.ToString("c")</small> 

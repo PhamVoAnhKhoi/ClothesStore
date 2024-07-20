@@ -1,73 +1,86 @@
+﻿using ClothesStore.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using ClothesStore.Models;
-using System.Linq;
+using System.Threading.Tasks;
 
 namespace ClothesStore.Controllers
 {
     public class UserController : Controller
     {
-        private IUserRepository repository;
+        private readonly IAccountRepository accountRepo;
+        private readonly SignInManager<ApplicationUser> signInManager;
 
-        public UserController(IUserRepository repo)
+        public UserController(IAccountRepository repo, SignInManager<ApplicationUser> signInManager)
         {
-            repository = repo;
+            accountRepo = repo;
+            this.signInManager = signInManager;
         }
 
-        public IActionResult Login()
+        [HttpGet]
+        public IActionResult SignUp()
         {
             return View();
         }
+
         [HttpPost]
-        public IActionResult Login(LoginViewModel model)
+        public async Task<IActionResult> SignUp(SignUpModel signUpModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                // Kiểm tra xác thực người dùng ở đây
-                var user = repository.Users.FirstOrDefault(u => u.UserName == model.UserName && u.Password == model.Password);
-
-                if (user != null)
-                {
-                    // Đăng nhập thành công, có thể lưu session hoặc cookie ở đây
-                    // Ví dụ: HttpContext.Session.SetString("UserName", user.UserName);
-                    return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chủ sau khi đăng nhập thành công
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt."); // Thông báo lỗi đăng nhập không thành công
-                }
+                return View(signUpModel);
             }
-            return View(model);
-        }     
-        public IActionResult Register()
-        {
-            return View(new RegisterViewModel());
+
+            var result = await accountRepo.SignUpAsync(signUpModel);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("SignIn");
+            }
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View(signUpModel);
         }
-         [HttpPost]
-        public IActionResult Register(RegisterViewModel model)
+
+        [HttpGet]
+        public IActionResult SignIn()
         {
-            if (ModelState.IsValid)
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn(SignInModel signInModel)
+        {
+            if (!ModelState.IsValid)
             {
-                var existingUser = repository.Users.FirstOrDefault(u => u.UserName == model.UserName);
-                if (existingUser != null)
-                {
-                    ModelState.AddModelError("UserName", "Username already exists.");
-                    return View(model);
-                }
-
-                var newUser = new User
-                {
-                    Name = model.Name,
-                    UserName = model.UserName,
-                    Password = model.Password,
-                    Phone = model.Phone
-                };
-
-                repository.AddUser(newUser);
-                repository.Save();
-
-                return RedirectToAction("Login");
+                return View(signInModel);
             }
-            return View(model);
+
+            var result = await accountRepo.SignInAsync(signInModel);
+
+            if (string.IsNullOrEmpty(result))
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(signInModel);
+            }
+
+            // Add JWT token to cookies or other storage for later use
+            Response.Cookies.Append("jwtToken", result, new Microsoft.AspNetCore.Http.CookieOptions { HttpOnly = true });
+
+            if(signInModel.Email == "anhkhoiphamvo2909@gmail.com"){
+                return RedirectToAction("Index", "Admin");
+            }
+            else{
+                 return RedirectToAction("Index", "Home");
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignOut()
+        {
+            await signInManager.SignOutAsync();
+            Response.Cookies.Delete("jwtToken"); // Xóa token hoặc lưu trữ xác thực khác
+            return RedirectToAction("Index", "Home");
         }
     }
 }

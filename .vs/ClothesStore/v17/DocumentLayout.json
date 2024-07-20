@@ -1,33 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\",
+  "WorkspaceRootPath": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\migrations\\20240718103003_addidentityauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:migrations\\20240718103003_addidentityauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\pages\\admin\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:pages\\admin\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\models\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:models\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver04_test01\\clothesstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|d:\\learn\\webnc\\lt_web\\doan\\clothesstore_ver09_test02\\clothesstore_ver08\\clothesstore\\models\\efaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B18A5EB-C1A4-495E-B04B-AFAADAF10D0D}|ClothesStore.csproj|solutionrelative:models\\efaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,87 +55,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAH4UAAAAAAAAAAAtwJUUAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-07-09T14:35:44.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categories.razor",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Pages\\Admin\\Categories.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Categories.razor",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Pages\\Admin\\Categories.razor",
-              "RelativeToolTip": "Pages\\Admin\\Categories.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T14:30:46.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAEwDsAAAAAAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:31:22.925Z",
+              "WhenOpened": "2024-07-18T12:01:11.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EFAccountRepository.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\EFAccountRepository.cs",
+              "RelativeDocumentMoniker": "Models\\EFAccountRepository.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\EFAccountRepository.cs",
+              "RelativeToolTip": "Models\\EFAccountRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:20:50.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IAccountRepository.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\IAccountRepository.cs",
+              "RelativeToolTip": "Models\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:17:26.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T09:28:06.308Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAIwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:43:14.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T09:27:50.949Z"
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "Models\\SignUpModel.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:14:22.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Product\\Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Search.cshtml",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Views\\Product\\Search.cshtml",
-              "RelativeToolTip": "Views\\Product\\Search.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T09:26:24.72Z"
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "Models\\SignInModel.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\SignInModel.cs",
+              "RelativeToolTip": "Models\\SignInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:12:18.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver04_test01\\ClothesStore\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAsAAAA",
+              "Title": "20240718103003_AddIdentityAuth.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Migrations\\20240718103003_AddIdentityAuth.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240718103003_AddIdentityAuth.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Migrations\\20240718103003_AddIdentityAuth.cs",
+              "RelativeToolTip": "Migrations\\20240718103003_AddIdentityAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:25:11.599Z"
+              "WhenOpened": "2024-07-18T11:05:37.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T10:05:13.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreDBContext.cs",
+              "DocumentMoniker": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\StoreDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\StoreDBContext.cs",
+              "ToolTip": "D:\\Learn\\WebNC\\LT_Web\\DoAn\\ClothesStore_ver09_test02\\ClothesStore_ver08\\ClothesStore\\Models\\StoreDBContext.cs",
+              "RelativeToolTip": "Models\\StoreDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:37:16.546Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,18 @@
+// custom.scss
+
+// Định nghĩa màu hồng mới
+$pink: #ff69b4; // Hot pink color
+
+// Ghi đè các màu chủ đề của Bootstrap để thêm màu hồng
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "pink": $pink
+  )
+);
+
+// Import Bootstrap's SCSS
+@import "~bootstrap/scss/bootstrap";
+.bg-pink {
+    background-color: $pink !important;
+  }

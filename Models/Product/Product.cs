@@ -7,7 +7,7 @@ namespace ClothesStore.Models {
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
         public string? ProductImage {get; set;}
-         public int QuantityOfProduct { get; set; }
+        public int QuantityOfProduct { get; set; }
 
         // Thêm thuộc tính CategoryID
         public long CategoryID { get; set; }

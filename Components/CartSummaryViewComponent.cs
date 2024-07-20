@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ClothesStore.Models;
+using Microsoft.AspNetCore.Authorization;
 namespace ClothesStore.Components
 {
     public class CartSummaryViewComponent : ViewComponent

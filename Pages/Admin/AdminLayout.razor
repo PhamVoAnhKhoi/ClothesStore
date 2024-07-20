@@ -1,6 +1,8 @@
+@using System.Collections.Generic
 @inherits LayoutComponentBase 
 <div class="bg-info text-white p-2"> 
     <span class="navbar-brand ml-2">CLOTHES STORE Administration</span> 
+    <a class="btn btn-outline-light mx-2" asp-controller="Home" asp-action="Index" href="/User/SignIn">LogOut</a>
 </div>
 <div class="container-fluid">
     <div class="row p-2">
@@ -12,6 +14,8 @@
                     Match="NavLinkMatch.Prefix"> Orders </NavLink>
                 <NavLink class="btn btn-outline-primary" href="/admin/categories" ActiveClass="btn-primary text-white"
                     Match="NavLinkMatch.Prefix"> Categories</NavLink>
+                <NavLink class="btn btn-outline-primary" href="/admin/accounts" ActiveClass="btn-primary text-white"
+                    Match="NavLinkMatch.Prefix"> Accounts</NavLink>
             </div>
         </div>
         <div class="col"> @Body </div>

@@ -18,7 +18,7 @@ namespace ClothesStore.Components
         {
             var products = repository.Products
                 .OrderByDescending(p => p.ProductID)
-                .Take(6)
+                .Take(12)
                 .ToList();
 
             return View(products);
